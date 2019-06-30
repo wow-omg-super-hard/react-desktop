@@ -1,0 +1,43 @@
+.modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.zask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .65);
+}
+
+.modal-assist {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.modal-actual {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    color: rgb(169, 169, 169);
+    font: 12px/1 "Segoe UI", Arial;
+    vertical-align: middle;
+    z-index: 1001;
+}
+
+.modal-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    min-height: 30px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
